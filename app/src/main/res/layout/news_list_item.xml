@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout_main">
+
+        <LinearLayout
+            style="@style/linear_layout_one">
+
+                <ImageView
+                    android:id="@+id/article_image"
+                    android:contentDescription="@string/article_image"
+                    tools:src="@mipmap/ic_launcher"
+                    style="@style/image_view"/>
+
+            <LinearLayout
+                style="@style/linear_layout_two">
+
+                <TextView
+                    android:id="@+id/article_title"
+                    tools:text="@string/headline"
+                    style="@style/text_view_headline" />
+
+                <TextView
+                    android:id="@+id/article_author"
+                    tools:text="@string/author"
+                    style="@style/text_view_author"/>
+
+                <LinearLayout
+                    style="@style/linear_layout_three">
+
+                    <TextView
+                        android:id="@+id/article_section"
+                        tools:text="@string/section"
+                        android:textAllCaps="true"
+                        style="@style/text_view_section_date"/>
+
+                    <TextView
+                        android:id="@+id/article_date"
+                        tools:text="@string/date"
+                        android:gravity="end"
+                        style="@style/text_view_section_date"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

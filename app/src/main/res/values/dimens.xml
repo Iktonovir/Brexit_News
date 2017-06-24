@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="layout_margin_one">10dp</dimen>
+
+    <dimen name="layout_margin_two">5dp</dimen>
+
+    <dimen name="image_layout_height">200dp</dimen>
+
+    <dimen name="section_date_layout_width">0dp</dimen>
+
+    <dimen name="headline_text_size">16sp</dimen>
+
+    <dimen name="author_text_size">14sp</dimen>
+
+    <dimen name="section_date_text_size">12sp</dimen>
+
+</resources>

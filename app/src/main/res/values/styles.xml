@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="basic_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linear_layout_main" parent="basic_layout">
+        <item name="android:background">@color/colorBackgroundOne</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="linear_layout_one" parent="basic_layout">
+        <item name="android:background">@color/colorBackgroundTwo</item>
+        <item name="android:layout_margin">@dimen/layout_margin_one</item>
+    </style>
+
+    <style name="image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/image_layout_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="linear_layout_two" parent="basic_layout">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_margin">@dimen/layout_margin_two</item>
+    </style>
+
+    <style name="text_view_headline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_margin_two</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/headline_text_size</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="text_view_author">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/author_text_size</item>
+    </style>
+
+    <style name="linear_layout_three">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">@dimen/layout_margin_two</item>
+    </style>
+
+    <style name="text_view_section_date">
+        <item name="android:layout_width">@dimen/section_date_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/section_date_text_size</item>
+    </style>
+
+</resources>
